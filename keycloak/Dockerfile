@@ -1,4 +1,4 @@
-FROM jboss/keycloak
+FROM jboss/keycloak:11.0.3
 
 COPY ./realm.json /realm.json
 
